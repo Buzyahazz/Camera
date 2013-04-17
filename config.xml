@@ -16,7 +16,8 @@
         <gap:platform name="symbian.wrt"/>
         <gap:platform name="blackberry" project="widgets"/>
     </gap:platforms>
-
+    <icon src="icon.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
 		
 	<feature name="http://api.phonegap.com/1.0/device"/>
 	<feature name="http://api.phonegap.com/1.0/battery"/>
